@@ -10,17 +10,17 @@ class TestFan:
 
 # Print properties of first fan
         print("1st Fan's Properties:")
-        print("Speed:", fan1.get_speed)
-        print("Switch:", fan1.get_switch)
-        print("Radius:", fan1.get_radius)
-        print("Color:", fan1.get_color)
+        print("Speed:", fan1.get_speed())
+        print("Switch:", fan1.get_switch())
+        print("Radius:", fan1.get_radius())
+        print("Color:", fan1.get_color())
 
 # Print properties of second fan
         print("2nd Fan's Properties:")
-        print("Speed:", fan2.get_speed)
-        print("Switch:", fan2.get_switch)
-        print("Radius:", fan2.get_radius)
-        print("Color:", fan2.get_color)
+        print("Speed:", fan2.get_speed())
+        print("Switch:", fan2.get_switch())
+        print("Radius:", fan2.get_radius())
+        print("Color:", fan2.get_color())
 
 # Create instance of TestFan 
 if __name__ == "__main__":
