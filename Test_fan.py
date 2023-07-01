@@ -17,22 +17,22 @@ class TestFan:
         header_color = colored(property_header, color = 'green')
 # Print heading
         print(header_color)
-        
+
 # Add colors to texts
 # Print properties of first fan
-        print("1st Fan's Properties:")
-        print("Speed:", fan1.get_speed())
-        print("Switch:", fan1.get_switch())
-        print("Radius:", fan1.get_radius())
-        print("Color:", fan1.get_color())
+        print(colored("1st Fan's Properties:", 'magenta'))
+        print("Speed:", colored(fan1.get_speed(), 'yellow'))
+        print("Switch:", colored(fan1.get_switch(), 'yellow'))
+        print("Radius:", colored(fan1.get_radius(), 'yellow'))
+        print("Color:", colored(fan1.get_color(), 'yellow'))
 
 # Add colors to texts
 # Print properties of second fan
-        print("\n2nd Fan's Properties:")
-        print("Speed:", fan2.get_speed())
-        print("Switch:", fan2.get_switch())
-        print("Radius:", fan2.get_radius())
-        print("Color:", fan2.get_color())
+        print(colored("\n2nd Fan's Properties:", 'magenta'))
+        print("Speed:", colored(fan2.get_speed(), 'cyan'))
+        print("Switch:", colored(fan2.get_switch(), 'cyan'))
+        print("Radius:", colored(fan2.get_radius(), 'cyan'))
+        print("Color:", colored(fan2.get_color(), 'cyan'))
 
 # Create instance of TestFan 
 if __name__ == "__main__":
