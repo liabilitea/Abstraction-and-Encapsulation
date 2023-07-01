@@ -14,7 +14,7 @@ class CarTest:
 
         for i in range(5):
             self.car.brake()
-            print("Current speed:", self.car.get_brake())
+            print("Current speed:", self.car.get_speed())
 
 # Create an instance for CarTest
 car_test = CarTest()
