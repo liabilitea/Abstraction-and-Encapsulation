@@ -29,7 +29,10 @@ class PetTest:
         pet.set_age(age)
 
     # Create header for Pet Details
-        print("\nPet Details:")
+        details_header = pyfiglet.figlet_format("Pet Details", font = "bubble")
+        details_color = colored(details_header, color = 'red')
+        print(details_color)
+    
     # Display pet details
         print("Name: ", (pet.get_name()))
         print("Type: ", (pet.get_animal_type()))
