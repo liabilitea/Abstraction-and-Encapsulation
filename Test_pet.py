@@ -1,3 +1,5 @@
+#Import modules for output design
+
 # Import Pet class
 from Pet_properties import Pet
 
@@ -7,7 +9,9 @@ class PetTest:
     def implement(self):
     # Create object for the Pet class
         pet = Pet()
-        
+
+    # Create header for Pet Survey 
+
     # Prompt user to enter pet details
         name = input("Please enter the name of your pet: ")
         pet.set_name(name)
@@ -17,9 +21,10 @@ class PetTest:
     
         age = input("Please enter the current age of your pet: ")
         pet.set_age(age)
-    
-    # Display pet details
+
+    # Create header for Pet Details
         print("\nPet Details:")
+    # Display pet details
         print("Name: ", (pet.get_name()))
         print("Type: ", (pet.get_animal_type()))
         print("Age: ", (pet.get_age()))
