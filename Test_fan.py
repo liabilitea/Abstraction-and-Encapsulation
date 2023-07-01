@@ -22,7 +22,7 @@ class TestFan:
 # Print properties of first fan
         print(colored("1st Fan's Properties:", 'magenta'))
         print("Speed:", colored(fan1.get_speed(), 'yellow'))
-        print("Switch:", colored(fan1.get_switch(), 'yellow'))
+        print("Switch:", colored(fan1.switch_value(), 'yellow'))
         print("Radius:", colored(fan1.get_radius(), 'yellow'))
         print("Color:", colored(fan1.get_color(), 'yellow'))
 
@@ -30,7 +30,7 @@ class TestFan:
 # Print properties of second fan
         print(colored("\n2nd Fan's Properties:", 'magenta'))
         print("Speed:", colored(fan2.get_speed(), 'cyan'))
-        print("Switch:", colored(fan2.get_switch(), 'cyan'))
+        print("Switch:", colored(fan2.switch_value(), 'cyan'))
         print("Radius:", colored(fan2.get_radius(), 'cyan'))
         print("Color:", colored(fan2.get_color(), 'cyan'))
 
