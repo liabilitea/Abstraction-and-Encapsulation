@@ -1,4 +1,5 @@
 # Import termcolor for colored output
+from termcolor import colored
 
 # Create a class named Car
 class Car:
