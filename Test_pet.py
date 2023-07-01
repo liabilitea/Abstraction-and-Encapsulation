@@ -20,9 +20,9 @@ class PetTest:
     
     # Display pet details
         print("\nPet Details:")
-        print("Name: ", (pet.get_name))
-        print("Type: ", (pet.get_animal_type))
-        print("Age: ", (pet.get_age))
+        print("Name: ", (pet.get_name()))
+        print("Type: ", (pet.get_animal_type()))
+        print("Age: ", (pet.get_age()))
 
 
 # Create instance for PetTest class
