@@ -5,7 +5,7 @@ from termcolor import colored
 class Car:
     # Create a constructor to initialize Car's attributes
     def __init__(self, year, make):
-        self.__year = year
+        self.__year_model = year
         self.__make = make
         self.__speed = 0
 
