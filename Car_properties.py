@@ -13,13 +13,13 @@ class Car:
     # Accelerate +5
     def accelerate(self):
         # Add color
-        print("Accelerating...")
+        print(colored("Accelerating...", 'green'))
         self.__speed += 5
 
     # Brake -5
     def brake(self):
         # Add color
-        print("Braking...")
+        print(colored("Braking...", 'yellow'))
         self.__speed -= 5 
 
     # Current Speed
