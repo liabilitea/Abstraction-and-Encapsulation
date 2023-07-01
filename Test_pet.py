@@ -19,13 +19,13 @@ class PetTest:
     
     # Prompt user to enter pet details
     # Add colors to the questions
-        name = input("Please enter the name of your pet: ")
+        name = input(colored("Please enter the name of your pet: ", 'light_blue'))
         pet.set_name(name)
 
-        animal_type = input("Please enter what type of animal your pet is: ")
+        animal_type = input(colored("Please enter what type of animal your pet is: ", 'light_blue'))
         pet.set_animal_type(animal_type)
     
-        age = input("Please enter the current age of your pet: ")
+        age = input(colored("Please enter the current age of your pet: ", 'light_blue'))
         pet.set_age(age)
 
     # Create header for Pet Details
