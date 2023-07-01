@@ -14,9 +14,22 @@ class Fan:
     MEDIUM = 2
     FAST = 3
 
-# Create accessor and mutator methods to get and modify values
+# Create accessor methods to get values
+    # Speed
+    def get_speed(self):
+        return self.__speed
+    # Switch, on and off
+    def get_switch(self):
+        return self.__on
+    # Radius
+    def get_radius(self):
+        return self.__radius
+    # Color
+    def get_color(self):
+        return self.__color
+    
+# Create mutator methods to modify values
     # Speed
     # Switch, on and off
     # Radius
     # Color
-
