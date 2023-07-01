@@ -2,8 +2,8 @@
 from Fan_properties import Fan
 
 #Import modules for design
-    #Pyfiglet
-    #Termcolor
+import pyfiglet
+from termcolor import colored
 
 # Create class for TestFan
 class TestFan:
