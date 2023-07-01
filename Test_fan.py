@@ -25,5 +25,5 @@ class TestFan:
 # Create instance of TestFan 
 if __name__ == "__main__":
     test_fans = TestFan()
-# Run with run method
-    test_fans.run()
+# Run with implement method
+    test_fans.implement()
