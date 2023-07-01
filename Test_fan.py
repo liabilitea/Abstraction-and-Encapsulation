@@ -16,7 +16,7 @@ class TestFan:
         print("Color:", fan1.get_color())
 
 # Print properties of second fan
-        print("2nd Fan's Properties:")
+        print("\n2nd Fan's Properties:")
         print("Speed:", fan2.get_speed())
         print("Switch:", fan2.get_switch())
         print("Radius:", fan2.get_radius())
