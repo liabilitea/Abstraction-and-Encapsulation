@@ -13,8 +13,11 @@ class TestFan:
         fan2 = Fan(Fan.MEDIUM, False, 5, "Blue")
 
 # Add heading using imported design modules
+        property_header = pyfiglet.figlet_format("Fan Properties", font = "bubble")
+        header_color = colored(property_header, color = 'green')
 # Print heading
-
+        print(header_color)
+        
 # Add colors to texts
 # Print properties of first fan
         print("1st Fan's Properties:")
