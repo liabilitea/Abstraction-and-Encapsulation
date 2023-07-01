@@ -21,6 +21,9 @@ class TestFan:
         print("Switch:", fan2.get_switch)
         print("Radius:", fan2.get_radius)
         print("Color:", fan2.get_color)
-        
+
 # Create instance of TestFan 
+if __name__ == "__main__":
+    test_fans = TestFan()
 # Run with run method
+    test_fans.run()
