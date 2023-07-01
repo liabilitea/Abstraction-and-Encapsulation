@@ -20,16 +20,16 @@ class CarTest:
     # Loop to accelerate and break five times
         for i in range(5):
             self.car.accelerate()
-            print("Current speed:", self.car.get_speed())
+            print(colored("Current speed:", 'light_magenta'), colored(self.car.get_speed(), 'red'))
             # Add line each iteration for clean output
             print()
 
         for i in range(5):
             self.car.brake()
-            print("Current speed:", self.car.get_speed())
+            print(colored("Current speed:", 'light_magenta'), colored(self.car.get_speed(), 'red'))
             # Add line each iteration for clean output
             print()
-            
+
 # Create an instance for CarTest
 car_test = CarTest()
 # Implement 
