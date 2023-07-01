@@ -25,7 +25,7 @@ class Pet:
         return self.__name 
 
     # Type
-    def tet_animal_type(self):
+    def get_animal_type(self):
         return self.__animal_type
     
     # Age
