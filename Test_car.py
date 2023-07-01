@@ -12,9 +12,11 @@ class CarTest:
 
     def implement(self):
     # Create a header with pyfiglet
-
+        speed_header = pyfiglet.figlet_format("Car Speed", font = "serifcap")
+        header_color = colored(speed_header, color = 'light_red')
     # Print header
-
+        print(header_color)
+        
     # Loop to accelerate and break five times
         for i in range(5):
             self.car.accelerate()
