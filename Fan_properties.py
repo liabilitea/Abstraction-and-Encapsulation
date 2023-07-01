@@ -8,9 +8,12 @@ class Fan:
         self.__on = On
         self.__radius = radius
         self.__colro = color
-        
-# Define speed property
 
+# Define speed property
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
+    
 # Create accessor and mutator methods to get and modify values
     # Speed
     # Switch, on and off
