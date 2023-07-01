@@ -17,4 +17,6 @@ class CarTest:
             print("Current speed:", self.car.get_brake())
 
 # Create an instance for CarTest
+car_test = CarTest()
 # Implement 
+car_test.implement()
