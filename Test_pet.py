@@ -26,4 +26,6 @@ class PetTest:
 
 
 # Create instance for PetTest class
+pet_test = PetTest()
 # Implement
+pet_test.implement()
