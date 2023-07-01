@@ -34,9 +34,9 @@ class PetTest:
         print(details_color)
     
     # Display pet details
-        print("Name: ", (pet.get_name()))
-        print("Type: ", (pet.get_animal_type()))
-        print("Age: ", (pet.get_age()))
+        print(colored("Name: ", 'yellow'), colored(pet.get_name(), color = 'green'))
+        print(colored("Type: ", 'yellow'), colored(pet.get_animal_type(), color = 'green'))
+        print(colored("Age: ", 'yellow'), colored(pet.get_age(), color = 'green'))
 
 
 # Create instance for PetTest class
