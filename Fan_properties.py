@@ -21,6 +21,9 @@ class Fan:
     # Switch, on and off
     def get_switch(self):
         return self.__on
+    
+    def switch_value(self):
+        return "On" if self.__on else "Off"
     # Radius
     def get_radius(self):
         return self.__radius
