@@ -1,6 +1,10 @@
 # Import Fan class from Fan_properties
 from Fan_properties import Fan
 
+#Import modules for design
+    #Pyfiglet
+    #Termcolor
+
 # Create class for TestFan
 class TestFan:
     def implement(self):
@@ -8,6 +12,10 @@ class TestFan:
         fan1 = Fan(Fan.FAST, True, 10, "Yellow")
         fan2 = Fan(Fan.MEDIUM, False, 5, "Blue")
 
+# Add heading using imported design modules
+# Print heading
+
+# Add colors to texts
 # Print properties of first fan
         print("1st Fan's Properties:")
         print("Speed:", fan1.get_speed())
@@ -15,6 +23,7 @@ class TestFan:
         print("Radius:", fan1.get_radius())
         print("Color:", fan1.get_color())
 
+# Add colors to texts
 # Print properties of second fan
         print("\n2nd Fan's Properties:")
         print("Speed:", fan2.get_speed())
