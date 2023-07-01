@@ -30,6 +30,17 @@ class Fan:
     
 # Create mutator methods to modify values
     # Speed
-    # Switch, on and off
+    def set_speed(self, speed):
+        self.__speed = speed   
+    # Switch On
+    def turn_on(self):
+        self.__on = True
+    # Switch Off
+    def turn_off(self):
+        self.__on = False
     # Radius
+    def set_radius(self, radius):
+        self.__radius = radius
     # Color
+    def set_color(self, color):
+        self.__color = color
