@@ -1,4 +1,6 @@
 #Import modules for output design
+import pyfiglet
+from termcolor import colored
 
 # Import Pet class
 from Pet_properties import Pet
@@ -11,8 +13,12 @@ class PetTest:
         pet = Pet()
 
     # Create header for Pet Survey 
-
+        survey_header = pyfiglet.figlet_format("Pet Survey", font = "larry3d")
+        survey_color = colored(survey_header, color = 'magenta')
+        print(survey_color)
+    
     # Prompt user to enter pet details
+    # Add colors to the questions
         name = input("Please enter the name of your pet: ")
         pet.set_name(name)
 
